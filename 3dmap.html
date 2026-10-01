@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>3D Maps - Chloo Ghumme</title>
+  <link rel="stylesheet" href="style.css"/>
+
+</head>
+<body class="map-body">
+  <!-- Sidebar -->
+  <aside class="map-sidebar">
+    <h2>3D Map Controls</h2>
+    <p>Select points of interest to highlight:</p>
+    <div class="map-controls">
+      <label><input type="checkbox" checked> 🏞️ Scenic Views</label>
+      <label><input type="checkbox" checked> 🏰 Historical Sites</label>
+      <label><input type="checkbox"> 🍴 Food Spots</label>
+      <label><input type="checkbox"> 🏕️ Campsites</label>
+    </div>
+    <div class="sidebar-footer">
+      <a href="index.html">← Back to Home</a>
+    </div>
+  </aside>
+
+  <!-- Main Map Section -->
+  <main class="map-main">
+    <div class="map-header">
+      <h1>Explore India in 3D</h1>
+      <p>Discover terrain, cities & hidden trails in a dynamic view.</p>
+      <form class="map-search">
+  <input type="text" placeholder="Search destination..." />
+  <button type="submit">🔍</button>
+</form>
+
+    </div>
+
+    <!-- Map Mock (or embed) -->
+    <div class="map-frame">
+      <img src="images/3d-terrain.jpg" alt="3D Map Mockup" />
+    </div>
+
+    <div class="map-legends">
+      <div class="legend"><span class="dot scenic"></span> Scenic View</div>
+      <div class="legend"><span class="dot historic"></span> Historical Site</div>
+      <div class="legend"><span class="dot food"></span> Food Spot</div>
+    </div>
+  </main>
+</body>
+</html>

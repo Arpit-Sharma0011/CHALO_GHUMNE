@@ -1,0 +1,651 @@
+/* Home Page Styles */
+.home-body {
+  background-color: #0f0f0f;
+  color: #f5f5f5;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.hero {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  padding: 3rem 1rem;
+  background-color: #1a1a1a;
+}
+
+.hero-bg {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+  border-radius: 1rem;
+  opacity: 0.4;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.hero-text {
+  position: relative;
+  z-index: 1;
+  max-width: 700px;
+  margin: auto;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  color: #00ffee;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+.categories {
+  padding: 3rem 1rem;
+  background-color: #0f0f0f;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #ff4081;
+  margin-bottom: 2rem;
+}
+
+.category-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  max-width: 1000px;
+  margin: auto;
+}
+
+.category-card {
+  background-color: #1a1a1a;
+  border-radius: 1rem;
+  padding: 2rem;
+  color: #f5f5f5;
+  text-decoration: none;
+  box-shadow: 0 0 10px rgba(0, 255, 238, 0.05);
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.category-card:hover {
+  background-color: #3e3e3e;
+  transform: translateY(-5px);
+}
+
+.category-card h3 {
+  font-size: 1.4rem;
+  color: #00ffee;
+  margin-bottom: 0.5rem;
+}
+
+.category-card p {
+  color: #ccc;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #1a1a1a;
+  color: #999;
+}
+
+/* Solo Travel Page */
+.solo-section {
+  padding: 2rem;
+  background-color: #0f0f0f;
+  color: #f5f5f5;
+  text-align: center;
+}
+
+.solo-section h1 {
+  color: #00ffee;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.intro-text {
+  color: #ccc;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+/* Safety Banners */
+.safety-banner {
+  background-color: #ff4081;
+  color: #fff;
+  padding: 1rem;
+  margin: 1rem auto;
+  border-radius: 0.75rem;
+  font-weight: bold;
+  max-width: 600px;
+}
+
+.safety-banner.secondary {
+  background-color: #1a1a1a;
+  border: 1px solid #3e3e3e;
+  color: #ccc;
+}
+
+/* Buttons */
+.btn-emergency,
+.btn-guide,
+.guide-buttons button {
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 2rem;
+  background-color: #00ffee;
+  color: #0f0f0f;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 0.5rem;
+  transition: background-color 0.3s;
+}
+
+.btn-emergency:hover,
+.btn-guide:hover,
+.guide-buttons button:hover {
+  background-color: #ff4081;
+  color: white;
+}
+
+/* Destinations */
+.destination-list h2 {
+  color: #ff4081;
+  margin: 2rem 0 1rem;
+}
+
+.destination-list ul {
+  list-style: none;
+  padding: 0;
+  color: #ccc;
+  font-size: 1.1rem;
+}
+
+.destination-list li {
+  margin-bottom: 0.5rem;
+}
+
+/* Guide Card */
+.guide-card {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1a1a1a;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(255, 64, 129, 0.2);
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.guide-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 1rem;
+  object-fit: cover;
+  border: 2px solid #00ffee;
+}
+
+.guide-info h3 {
+  margin-bottom: 0.2rem;
+  color: #00ffee;
+}
+
+.verified {
+  font-size: 0.8rem;
+  background-color: #00ffee;
+  color: #0f0f0f;
+  border-radius: 0.3rem;
+  padding: 0.1rem 0.4rem;
+  margin-left: 0.5rem;
+}
+
+.guide-info p {
+  color: #bbb;
+  margin-bottom: 0.5rem;
+}
+
+.guide-buttons {
+  display: flex;
+  gap: 1rem;
+}
+/* Family Travel Page */
+.family-section {
+  padding: 2rem;
+  background-color: #0f0f0f;
+  color: #f5f5f5;
+  text-align: center;
+}
+
+.family-section h1 {
+  font-size: 2.5rem;
+  color: #00ffee;
+  margin-bottom: 0.5rem;
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.filter-btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 2rem;
+  background-color: #1a1a1a;
+  color: #ccc;
+  border: 1px solid #3e3e3e;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.filter-btn:hover {
+  background-color: #ff4081;
+  color: white;
+}
+
+.destination-list h2,
+.tips h2 {
+  color: #ff4081;
+  margin: 2rem 0 1rem;
+}
+
+.destination-list ul,
+.tips ul {
+  list-style: none;
+  padding: 0;
+  color: #ccc;
+  font-size: 1.1rem;
+}
+
+.destination-list li,
+.tips li {
+  margin-bottom: 0.7rem;
+}
+
+/* Reuse Guide Card Styles */
+.guide-call {
+  margin: 3rem 0;
+}
+
+.guide-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1a1a1a;
+  padding: 1rem;
+  border-radius: 1rem;
+  max-width: 600px;
+  margin: 1.5rem auto;
+  box-shadow: 0 0 10px rgba(255, 64, 129, 0.2);
+}
+
+.guide-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 1rem;
+  object-fit: cover;
+  border: 2px solid #00ffee;
+}
+
+.guide-info h3 {
+  margin-bottom: 0.2rem;
+  color: #00ffee;
+}
+
+.guide-info p {
+  color: #bbb;
+  margin-bottom: 0.5rem;
+}
+
+.verified {
+  font-size: 0.8rem;
+  background-color: #00ffee;
+  color: #0f0f0f;
+  border-radius: 0.3rem;
+  padding: 0.1rem 0.4rem;
+  margin-left: 0.5rem;
+}
+
+.guide-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.guide-buttons button {
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 2rem;
+  background-color: #00ffee;
+  color: #0f0f0f;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.guide-buttons button:hover {
+  background-color: #ff4081;
+  color: white;
+}
+/* Local Page */
+.local-section {
+  background-color: #0f0f0f;
+  color: #f5f5f5;
+  padding: 2rem;
+  text-align: center;
+}
+
+.local-section h1 {
+  font-size: 2.5rem;
+  color: #00ffee;
+  margin-bottom: 0.5rem;
+}
+
+.intro-text {
+  color: #ccc;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+/* Toggle Mode */
+.toggle-mode {
+  text-align: right;
+  margin-bottom: 1rem;
+}
+
+.mode-toggle {
+  background-color: #1a1a1a;
+  border: 1px solid #3e3e3e;
+  color: #ccc;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.mode-toggle:hover {
+  background-color: #00ffee;
+  color: #0f0f0f;
+}
+
+/* Chat */
+.chat-section {
+  margin: 2rem auto;
+  max-width: 600px;
+  background-color: #1a1a1a;
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0, 255, 238, 0.1);
+}
+
+.chat-box {
+  text-align: left;
+  background-color: #3e3e3e;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.chat-btn {
+  background-color: #00ffee;
+  color: #0f0f0f;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.chat-btn:hover {
+  background-color: #ff4081;
+  color: #fff;
+}
+
+/* Info Sections */
+.culture-section,
+.food-section,
+.events-section {
+  margin: 2rem auto;
+  max-width: 700px;
+  text-align: left;
+}
+
+.culture-section h2,
+.food-section h2,
+.events-section h2 {
+  color: #ff4081;
+  margin-bottom: 1rem;
+}
+
+.culture-section ul,
+.food-section ul,
+.events-section ul {
+  list-style: none;
+  padding: 0;
+  color: #ccc;
+}
+
+.culture-section li,
+.food-section li,
+.events-section li {
+  margin-bottom: 0.6rem;
+}
+
+/* Optional Day Mode */
+.day-mode {
+  background-color: #f5f5f5;
+  color: #111;
+}
+
+.day-mode .local-section {
+  background-color: #fff;
+  color: #111;
+}
+
+.day-mode header,
+.day-mode footer {
+  background-color: #e1e1e1;
+  color: #111;
+}
+
+.day-mode .chat-section,
+.day-mode .chat-box {
+  background-color: #ddd;
+  color: #000;
+}
+
+.day-mode .mode-toggle {
+  background-color: #fff;
+  color: #000;
+  border-color: #aaa;
+}
+/* 3D Map Page */
+.map-body {
+  display: flex;
+  margin: 0;
+  background-color: #0f0f0f;
+  color: #f5f5f5;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.map-sidebar {
+  width: 280px;
+  background-color: #1a1a1a;
+  padding: 2rem;
+  height: 100vh;
+  box-shadow: 2px 0 8px rgba(0, 255, 238, 0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.map-sidebar h2 {
+  color: #00ffee;
+  margin-bottom: 1rem;
+}
+
+.map-controls label {
+  display: block;
+  margin: 0.5rem 0;
+  color: #ccc;
+  font-size: 0.95rem;
+}
+
+.sidebar-footer {
+  margin-top: 2rem;
+}
+
+.sidebar-footer a {
+  color: #00ffee;
+  text-decoration: none;
+}
+
+.sidebar-footer a:hover {
+  text-decoration: underline;
+}
+
+/* Main Map Section */
+.map-main {
+  flex: 1;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #0f0f0f;
+}
+
+.map-header h1 {
+  font-size: 2rem;
+  color: #00ffee;
+  margin-bottom: 0.5rem;
+}
+
+.map-header p {
+  color: #bbb;
+  margin-bottom: 2rem;
+}
+
+/* Map Frame */
+.map-frame {
+  width: 100%;
+  height: 500px;
+  background-color: #2b2b2b;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 255, 238, 0.08);
+}
+
+.map-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Legend */
+.map-legends {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.legend {
+  display: flex;
+  align-items: center;
+  font-size: 0.95rem;
+  color: #ccc;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+
+.dot.scenic { background-color: #00ffee; }
+.dot.historic { background-color: #ff4081; }
+.dot.food { background-color: #ffaa00; }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .map-body {
+    flex-direction: column;
+  }
+
+  .map-sidebar {
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+
+  .map-main {
+    padding: 1rem;
+  }
+
+  .map-frame {
+    height: 300px;
+  }
+}
+/* Map Search */
+.map-search {
+  display: flex;
+  margin-top: 1rem;
+  max-width: 400px;
+  background-color: #1a1a1a;
+  border-radius: 2rem;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 255, 238, 0.2);
+}
+
+.map-search input {
+  flex: 1;
+  padding: 0.6rem 1rem;
+  border: none;
+  background: transparent;
+  color: #f5f5f5;
+  font-size: 1rem;
+  outline: none;
+}
+
+.map-search input::placeholder {
+  color: #888;
+}
+
+.map-search button {
+  background-color: #00ffee;
+  color: #0f0f0f;
+  padding: 0 1rem;
+  font-size: 1.1rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.map-search button:hover {
+  background-color: #ff4081;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .map-search {
+    width: 100%;
+  }
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Be a Local - Chloo Ghumme</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <a href="index.html" class="logo">
+      <img src="images/logo.png" alt="Chloo Ghumme Logo" />
+    </a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="3dmap.html">3D Maps</a>
+      <a href="solo.html">Solo Travel</a>
+      <a href="family.html">Family Travel</a>
+      <a href="local.html">Be a Local</a>
+    </nav>
+  </header>
+
+  <!-- Local Guide Section -->
+  <main class="local-section">
+    <div class="toggle-mode">
+      <button class="mode-toggle">🌓 Toggle Day/Night</button>
+    </div>
+
+    <h1>Be a Local</h1>
+    <p class="intro-text">Connect with locals and travel deeper. Experience real culture, food, and events — 24/7.</p>
+
+    <!-- Mock Chat Section -->
+    <section class="chat-section">
+      <h2>Live Chat with a Local Guide</h2>
+      <div class="chat-box">
+        <p><strong>You:</strong> Hi! Can I get a veg dinner spot near Old Delhi?</p>
+        <p><strong>Local:</strong> Absolutely! Try Karim's or Al Jawahar — both open till late night.</p>
+      </div>
+      <button class="chat-btn">Start Chat</button>
+    </section>
+
+    <!-- Cultural Tips -->
+    <section class="culture-section">
+      <h2>Cultural Tips & Gestures to Avoid</h2>
+      <ul>
+        <li>🙏 Always greet with “Namaste” using both hands.</li>
+        <li>🚫 Avoid touching someone with your feet.</li>
+        <li>🧥 Dress modestly in temples and rural areas.</li>
+        <li>🫱 Use right hand only for eating and giving items.</li>
+      </ul>
+    </section>
+
+    <!-- Local Food Recommendations -->
+    <section class="food-section">
+      <h2>Must-Try Local Foods</h2>
+      <ul>
+        <li>Chole Bhature – Delhi</li>
+        <li>Misal Pav – Maharashtra</li>
+        <li>Dhokla – Gujarat</li>
+        <li>Appam with Stew – Kerala</li>
+        <li>Litti Chokha – Bihar</li>
+      </ul>
+    </section>
+
+    <!-- Local Events -->
+    <section class="events-section">
+      <h2>Local Events This Week</h2>
+      <ul>
+        <li>🪔 Delhi Street Food Fest – June 30</li>
+        <li>🎶 Jaipur Folk Night – July 1</li>
+        <li>🎨 Kochi Mural Workshop – July 2</li>
+        <li>🎭 Mumbai Theatre Gala – July 3</li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Chloo Ghumme. Experience India Like a Local.</p>
+  </footer>
+
+  <script>
+    // Optional: Toggle background theme (visual only)
+    const toggleBtn = document.querySelector('.mode-toggle');
+    toggleBtn.addEventListener('click', () => {
+      document.body.classList.toggle('day-mode');
+    });
+  </script>
+</body>
+</html>
